@@ -11,9 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY', 'default_key')
 DEBUG = False
 
-ALLOWED_HOSTS = ['51.250.28.8', '127.0.0.1', 'localhost', 
-'eqsx0.ddns.net']
-
+ALLOWED_HOSTS = ['51.250.28.8', '127.0.0.1', 'localhost', 'eqsx0.ddns.net']
 
 # Application definition
 
